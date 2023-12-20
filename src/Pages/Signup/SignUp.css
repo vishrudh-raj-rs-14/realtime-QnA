@@ -1,0 +1,51 @@
+.signupBody {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f3f7ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signupBody > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  background-color: white;
+  padding: 40px 30px;
+  border-radius: 10px;
+}
+
+.avatar {
+  background-color: transparent !important;
+  position: absolute;
+  top: 0px;
+  left: 20px;
+}
+
+.avatar > div {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  gap: 12px;
+  font-weight: 600;
+}
+
+.signUpHeading {
+  font-size: 32px;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 20px 0;
+  width: 30vw;
+}
+
+.inputs {
+  /* width: 80%; */
+}

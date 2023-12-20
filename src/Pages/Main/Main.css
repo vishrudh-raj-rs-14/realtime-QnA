@@ -1,0 +1,22 @@
+.mainHeader {
+  width: 100vw;
+  padding: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.newSession {
+  margin-left: auto;
+  display: flex;
+  gap: 12px;
+}
+
+.mainHeaderText {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.mainBody {
+  display: flex;
+  flex-direction: column;
+}
